@@ -120,7 +120,6 @@ def train_pca_model_from_video():
         return False # Fail
 
 def run_live_system():
-    """Runs the main application loop."""
     print("Loading all models...")
     required_files = [PCA_MODEL_FILE, MODEL_DIMS_FILE,
                       HAAR_CASCADE_FILE, LBP_CASCADE_FILE]
