@@ -156,7 +156,7 @@ def main():
         if not tracking:
             mode_text = f"MODE: {mode_labels[detector_mode]}"
 
-            # --- Haar + Recognition Mode ---
+            # Haar
             if detector_mode == 0:
                 faces_haar = haar_detector.detectMultiScale(
                     frame_gray, HAAR_SCALE_FACTOR, HAAR_MIN_NEIGHBORS, minSize=HAAR_MIN_SIZE
