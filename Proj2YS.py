@@ -7,11 +7,9 @@ import sys
 from sklearn.metrics import mean_squared_error
 from sklearn.decomposition import PCA
 
-# --- 1. Configuration ---
-
-# --- Model & Dependency File Names
-PCA_MODEL_FILE = 'pca_model.joblib'
-MODEL_DIMS_FILE = 'model_dims.npy'
+# Dependencies
+PCA_MODEL_FILE = 'pca_model.joblib' # Can be made in software
+MODEL_DIMS_FILE = 'model_dims.npy' # Can be made in software
 HAAR_CASCADE_FILE = 'haarcascade_frontalface_default.xml'
 LBP_CASCADE_FILE = 'lbpcascade_frontalface.xml' # HOG alternative
 INPUT_VIDEO_PATH = 'Tam Nakano vs Saya Kamitami - Faces.mp4' # Used for training
